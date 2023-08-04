@@ -63,7 +63,7 @@ struct Biblioteca{
 
     }
 
-    void imprimeMaior(){
+    void imprimeMaior(){ //da pra fazer com variavel padrão!!!!!
         if(maiorLivro == -999){
             printf("Nenhum livro cadastrado!\n ");
         }else{
@@ -77,7 +77,7 @@ struct Biblioteca{
 int main(){
 
     Biblioteca biblio;
-    int op;
+    int op; 
     menu();
     printf("Digite a opcao desejada: ");
     scanf("%d%*c", &op);
